@@ -4,8 +4,7 @@
   <artifactId>ComcastCRMGUIFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
     <properties>
-    <maven.compiler.target>1.17</maven.compiler.target>
-    <maven.compiler.source>1.17</maven.compiler.source>
+    
 </properties>
   
       <profiles>
@@ -149,7 +148,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.14.3</version>
+    <version>7.8.0</version>
 </dependency>
 
 <dependency>
