@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Batch_Execution">
+    <classes>
+      <class name="com.comcast.hsm.AdminLogin.CreatingNewDoctorTest"/>
+      <class name="com.comcast.hsm.AdminLogin.UpdatingTheDoctorTest"/>
+      <class name="com.comcast.hsm.integration.CreatingDcotorWithRespectToPatientAndAdminTest"/>
+      <class name="com.comcast.hsm.integration.CreatingSplWithPatientTest"/>
+      <class name="com.comcast.hsm.integration.CreatingDoctorWithNewSpecializationTest"/>
+    </classes>
+  </test> <!-- Batch_Execution -->
+</suite> <!-- Suite -->

@@ -1,6 +1,8 @@
 package com.comcast.crm.generic.webdriverutility;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
@@ -43,6 +45,22 @@ public class JavaUtility {
 	    cal.add(Calendar.DAY_OF_MONTH,days);
 	   String reqDate=  sim.format(cal.getTime());
 	return reqDate;
+	}
+	
+	public String CurrentTime(String Format)
+	{
+		
+		 LocalTime currentTime = LocalTime.now();
+		 LocalTime newtime= currentTime.plusMinutes(30);
+		 DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Format);
+		 String formattedTime = newtime.format(formatter);
+		 
+	        
+		return formattedTime;
+		
+		
+		
+		
 	}
 
 }

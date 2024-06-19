@@ -5,6 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * 
+ * @author Bharath Matti
+ * 
+ * Contains Add Specialization page elements
+ */
 public class AddSpecialization {
 
 	

@@ -57,7 +57,7 @@ public class ExcelUtility {
 	public void setDataIntoExcel(String sheetName , int rowNum , int celNum , String data) throws EncryptedDocumentException, IOException {
 		FileInputStream fis = new FileInputStream("./testdata/testScriptdata.xlsx");
 		Workbook wb =  WorkbookFactory.create(fis);
-		wb.getSheet(sheetName).getRow(rowNum).createCell(celNum);
+		wb.getSheet(sheetName).getRow(rowNum).createCell(celNum).setCellValue(data);
 		
 		FileOutputStream fos = new FileOutputStream("./testdata/testScriptdata.xlsx");
 		wb.write(fos);

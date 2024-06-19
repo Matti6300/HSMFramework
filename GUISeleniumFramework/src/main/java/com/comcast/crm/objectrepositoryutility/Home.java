@@ -1,7 +1,5 @@
 package com.comcast.crm.objectrepositoryutility;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,9 +9,9 @@ import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 
 /**
  * 
- * @author Deepak
+ * @author Bharath Matti
  * 
- * Contains Login page elements & business lib like login()
+ * Contains Logins page elements 
  *
  */  
 public class Home extends WebDriverUtility{                             
@@ -23,9 +21,46 @@ public class Home extends WebDriverUtility{
 		 this.driver = driver;
 		 PageFactory.initElements(driver, this);
 	 }
-	public void logout() {
-		
+	 
+	 
+	 
+	 @FindBy(xpath = "//div[@id='menu']/ul/li[6]/a")
+	 private WebElement LoginsModule;
+	 
+	 
+	 @FindBy(xpath = "//h6[text()='Admin Login']/../a/button")
+	 private WebElement AdminLoginButton;
+	 
+	 
+	 @FindBy(xpath = "//h6[text()='Patient Login']/../a/button")
+	 private WebElement PatientLoginButton;
+	 
+	 @FindBy(xpath = "//h6[text()='Doctors login']/../a/button")
+	 private WebElement DoctorLoginButton;
+	public WebDriver getDriver() {
+		return driver;
 	}
+
+	public WebElement getLoginsModule() {
+		return LoginsModule;
+	}
+
+	public WebElement getAdminLoginButton() {
+		return AdminLoginButton;
+	}
+
+	public WebElement getPatientLoginButton() {
+		return PatientLoginButton;
+	}
+
+	public WebElement getDoctorLoginButton() {
+		return DoctorLoginButton;
+	}
+	 
+	 
+	/*public void logout() {
+		
+	}*/
 
 	
 

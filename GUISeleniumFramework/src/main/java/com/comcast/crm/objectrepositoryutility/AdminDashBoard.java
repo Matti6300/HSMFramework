@@ -1,13 +1,17 @@
 package com.comcast.crm.objectrepositoryutility;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * 
+ * @author Bharath Matti
+ * 
+ * Contains Admin Dash Board page elements
+ */
 public class AdminDashBoard {
-	
 	
 	
 	public AdminDashBoard(WebDriver driver) {

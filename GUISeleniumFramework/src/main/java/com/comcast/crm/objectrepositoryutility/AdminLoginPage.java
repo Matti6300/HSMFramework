@@ -6,7 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
-
+/**
+ * 
+ * @author Bharath Matti
+ * 
+ * Contains Admin Login page elements & Bussiness Logic For Login
+ */
 public class AdminLoginPage extends WebDriverUtility{
 	
 	WebDriver driver;

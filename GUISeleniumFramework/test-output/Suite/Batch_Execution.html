@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Batch_Execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Batch_Execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 19 12:41:36 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>32 seconds (32782 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.comcast.hsm.integration.CreatingDcotorWithRespectToPatientAndAdminTest.creating_Dcotor_WithRespectTo_Patient_And_AdminTest()'><b>creating_Dcotor_WithRespectTo_Patient_And_AdminTest</b><br>Test class: com.comcast.hsm.integration.CreatingDcotorWithRespectToPatientAndAdminTest<br/>
+<a href="#Output-2076356118" onClick='toggleBox("Output-2076356118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2076356118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2076356118">
+Admin Dashboard displyed<br/>
+add doctor specialization page displyed<br/>
+Doctor Specialization Added Successfully<br/>
+Add Doctor Page Verified successfully<br/>
+Doctor added successfully<br/>
+Patient dashboard displyed<br/>
+Book Appointment Page displyed<br/>
+Appointmnet Booked Withrespect to the Created Specialization<br/>
+Doctor Verified<br/>
+Patient Verified<br/>
+doctor created and booked appointment as patient and achecked in admin login<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.comcast.hsm.integration.CreatingDcotorWithRespectToPatientAndAdminTest@7b420819</td></tr>
+<tr>
+<td title='com.comcast.hsm.integration.CreatingDoctorWithNewSpecializationTest.creating_Dcotor_With_New_Specialization_Test()'><b>creating_Dcotor_With_New_Specialization_Test</b><br>Test class: com.comcast.hsm.integration.CreatingDoctorWithNewSpecializationTest<br/>
+<a href="#Output-738369543" onClick='toggleBox("Output-738369543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-738369543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-738369543">
+admin dashboard verified successfully<br/>
+Add Doctor specialization Page  verified successfully<br/>
+Doctor Specialization added successfully<br/>
+ Add Doctor Page Verified successfully<br/>
+Doctor added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.comcast.hsm.integration.CreatingDoctorWithNewSpecializationTest@265adfad</td></tr>
+<tr>
+<td title='com.comcast.hsm.integration.CreatingSplWithPatientTest.creating_Spl_Withrespect_To_Patient_Test()'><b>creating_Spl_Withrespect_To_Patient_Test</b><br>Test class: com.comcast.hsm.integration.CreatingSplWithPatientTest<br/>
+<a href="#Output-733213598" onClick='toggleBox("Output-733213598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-733213598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-733213598">
+Admin Dashboard displyed<br/>
+add doctor specialization page displyed<br/>
+Doctor Specialization Added Successfully<br/>
+Add Doctor Page Verified successfully<br/>
+Doctor added successfully<br/>
+Patient dashboard displyed<br/>
+Book Appointment Page displyed<br/>
+Appointmnet Booked Withrespect to the Created Specialization<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.comcast.hsm.integration.CreatingSplWithPatientTest@7a1a14a4</td></tr>
+<tr>
+<td title='com.comcast.hsm.AdminLogin.CreatingNewDoctorTest.creatinga_NewDcotor_Test()'><b>creatinga_NewDcotor_Test</b><br>Test class: com.comcast.hsm.AdminLogin.CreatingNewDoctorTest<br/>
+<a href="#Output-918738473" onClick='toggleBox("Output-918738473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-918738473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-918738473">
+Admin Dashboard displyed<br/>
+Add Doctor Page verified successfully<br/>
+Doctor Added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.comcast.hsm.AdminLogin.CreatingNewDoctorTest@3adcc812</td></tr>
+<tr>
+<td title='com.comcast.hsm.AdminLogin.UpdatingTheDoctorTest.updating_TheDoctor_Test()'><b>updating_TheDoctor_Test</b><br>Test class: com.comcast.hsm.AdminLogin.UpdatingTheDoctorTest<br/>
+<a href="#Output-1342373353" onClick='toggleBox("Output-1342373353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1342373353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1342373353">
+Admin Dashboard displyed<br/>
+Manage Doctors Page verified successfully<br/>
+Doctor Updated successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.comcast.hsm.AdminLogin.UpdatingTheDoctorTest@35432107</td></tr>
+</table><p>
+</body>
+</html>
