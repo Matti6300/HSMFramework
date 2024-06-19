@@ -1,5 +1,8 @@
 package com.comcast.crm.objectrepositoryutility;
-
+/**
+ *@author aditya
+ * Contains Web elements and  for ManageUsers Page
+ */
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,7 +36,12 @@ public class ManageUsersPage {
 
 
 
-	//bussiness method
+	/**
+	 * @author aditya
+	 * @param user
+	 * @throws InterruptedException
+	 * Method to delete User for admin
+	 */
 	public void deleteUser(String user) throws InterruptedException
 	{
 		driver.findElement(By.xpath("//td[text()='"+user+"']/..//a[@tooltip='Remove']")).click();

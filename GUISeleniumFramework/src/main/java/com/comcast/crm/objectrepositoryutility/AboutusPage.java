@@ -6,7 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
-
+/**
+ * @author aditya
+ * Contains Web elements and Business method for about us page
+ */
 public class AboutusPage extends WebDriverUtility {
 
 	
@@ -17,12 +20,6 @@ public class AboutusPage extends WebDriverUtility {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void setAboutusHeader(WebElement aboutusHeader) {
-		this.aboutusHeader = aboutusHeader;
-	}
-
-
-
 	@FindBy(xpath = "//h1[text()='Admin  | Update the About us Content']")
 	private WebElement aboutusHeader;
 	@FindBy(xpath = "//div[@contenteditable='true']")
@@ -33,7 +30,11 @@ public class AboutusPage extends WebDriverUtility {
 	public WebElement getAboutusHeader() {
 		return aboutusHeader;
 	}
-	//bussiness method
+	/**
+	 * @author aditya
+	 * @param data
+	 * Method To update data
+	 */
 	public void updateAboutus(String data)
 	{
 		pagedescriptionEdt.clear();

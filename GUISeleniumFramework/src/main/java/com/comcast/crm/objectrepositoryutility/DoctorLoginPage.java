@@ -1,7 +1,7 @@
 package com.comcast.crm.objectrepositoryutility;
 /**
  * @author aditya
- *Contains Web elements and Business method for AdminLogin Page
+ * Contains Web elements and Business method for DoctorLogin Page
  */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,10 +10,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 
-public class AdminLoginPage extends WebDriverUtility {
+public class DoctorLoginPage extends WebDriverUtility {
 
 	WebDriver driver;
-	public AdminLoginPage(WebDriver driver)
+	public DoctorLoginPage(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -26,36 +26,20 @@ public class AdminLoginPage extends WebDriverUtility {
 	
 	@FindBy(name = "submit")
 	private WebElement loginbtn;
-	
-	public WebElement getUsernameEdt() {
-		return usernameEdt;
-	}
-
-	public WebElement getPasswordEdt() {
-		return passwordEdt;
-	}
-
-	public WebElement getLoginbtn() {
-		return loginbtn;
-	}
 	/**
 	 * @author aditya
-	 * @param url
 	 * @param username
-	 * @param password
-	 * Method for Log in as Admin
+	 * @param pass
+	 * Merhod for login as doctor
 	 */
-	public void login(String url, String username, String password)
+	public void docLogin(String username, String pass)
 	{
-		driver.manage().window().maximize();
-		waitForPageToLoad(driver);
-		driver.get(url);
 		HomePage hp= new HomePage(driver);
-		hp.getAdminclickherebtn().click();
-		switchToTabOnTitle(driver, "admin");
+		hp.getDocclickherebtn().click();
+		switchToTabOnTitle(driver, "doctor");
 		usernameEdt.sendKeys(username);
-		passwordEdt.sendKeys(password);
+		passwordEdt.sendKeys(pass);
 		loginbtn.click();
+		
 	}
-	
 }

@@ -1,7 +1,8 @@
 package com.comcast.crm.objectrepositoryutility;
-
-import java.time.Duration;
-
+/**
+ * @author aditya
+ * Contains Web elements and  for Home Page
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,13 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 
-/**
- * 
- * @author Deepak
- * 
- * Contains Login page elements & business lib like login()
- *
- */  
 public class HomePage extends WebDriverUtility{                             
 
 	WebDriver driver;
@@ -93,7 +87,7 @@ public class HomePage extends WebDriverUtility{
 	}
 	
 
-	//bussiness mwthod
+	
 	
 	
 

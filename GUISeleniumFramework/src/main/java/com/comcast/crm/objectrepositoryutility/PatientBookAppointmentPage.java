@@ -1,5 +1,8 @@
 package com.comcast.crm.objectrepositoryutility;
-
+/**
+ *@author aditya
+ * Contains Web elements and  for PatientBookAppointment Page
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,9 +32,37 @@ public class PatientBookAppointmentPage extends WebDriverUtility {
 	public WebElement getBookappointmentHeader() {
 		return bookappointmentHeader;
 	}
+	
 
-	//bussiness method
-	public void bookAppointment(String doctorspecialization, String doctorname, String date)
+	public WebElement getDoctorSpeciializationDropdown() {
+		return doctorSpeciializationDropdown;
+	}
+
+
+	public WebElement getDoctorsDropdown() {
+		return doctorsDropdown;
+	}
+
+
+	public WebElement getAppdate() {
+		return appdate;
+	}
+
+
+	public WebElement getSubmitBtn() {
+		return submitBtn;
+	}
+
+
+	/**
+	 * 
+	 * @param doctorspecialization
+	 * @param doctorname
+	 * @param date
+	 * @throws InterruptedException
+	 * Method to book an appointment as patient
+	 */
+	public void bookAppointment(String doctorspecialization, String doctorname, String date) throws InterruptedException
 	{
 	  select(doctorSpeciializationDropdown, doctorspecialization);
 	  select(doctorsDropdown, doctorname);

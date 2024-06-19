@@ -1,5 +1,8 @@
 package com.comcast.crm.objectrepositoryutility;
-
+/**
+ *@author aditya
+ * Contains Web elements and  for PatientBookAppointment Page
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,8 +35,11 @@ public class PatientDashboardPage {
 	public WebElement getBookappoinmentLink() {
 		return bookappoinmentLink;
 	}
-	//bussines method
-		public void logout()
+	/**
+	 * @author aditya
+	 * Method for logout as Patient
+	 */
+		public void patientlogout()
 		{
 			patientDropdown.click();
 			logoutlink.click();

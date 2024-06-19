@@ -1,5 +1,8 @@
 package com.comcast.crm.objectrepositoryutility;
-
+/**
+ *@author aditya
+ * Contains Web elements and  for PatientLogin Page
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -52,7 +55,12 @@ public class PatientLoginPage extends WebDriverUtility{
 		return patientloginheader;
 	}
 	
-	//bussiness method
+	/**
+	 * @author aditya
+	 * @param username
+	 * @param pass
+	 * Mehtod for Patient Login
+	 */
 	public void patientLogin(String username, String pass)
 	{
 		HomePage hp= new HomePage(driver);
