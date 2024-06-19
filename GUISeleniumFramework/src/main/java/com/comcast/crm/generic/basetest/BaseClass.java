@@ -21,7 +21,10 @@ import com.comcast.crm.generic.fileutility.ExcelUtility;
 import com.comcast.crm.generic.fileutility.FileUtility;
 import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
-import com.comcast.crm.objectrepositoryutility.Home;
+import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
+import com.comcast.crm.objectrepositoryutility.AddPatientPage;
+import com.comcast.crm.objectrepositoryutility.DrDashboardPage;
+import com.comcast.crm.objectrepositoryutility.HomePage;
 import com.comcast.crm.objectrepositoryutility.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -32,8 +35,12 @@ public class BaseClass {
 	public FileUtility fLib = new FileUtility();
 	public ExcelUtility eLib = new ExcelUtility();
 	public JavaUtility jLib = new JavaUtility();
+	public WebDriverUtility wLib=new WebDriverUtility();
 	public  WebDriver driver = null;
 	public  static WebDriver sdriver = null;
+	public AddPatientPage ap;
+
+	
 
 
 	
@@ -72,6 +79,9 @@ public class BaseClass {
 			ChromeOptions chromeOptions = new ChromeOptions();
 			driver = new ChromeDriver(chromeOptions);
 		}
+		
+		ap=new AddPatientPage(driver);
+		
 		sdriver = driver;
 		UtilityClassObject.setDriver(driver);
 	    }
@@ -84,14 +94,16 @@ public class BaseClass {
 			String PASSWORD = System.getProperty("password" , fLib.getDataFromPropertiesFile("password"));
 			LoginPage lp = new LoginPage(driver);
 			lp.loginToapp(URL, USERNAME, PASSWORD);
+			
+			
 		}
 	    
 	    
 		@AfterMethod(groups = {"smokeTest", "regressionTest"})
-		public void configAM() {
+		public void configAM() throws InterruptedException {
 			System.out.println("=logout=");
-			Home hp = new Home(driver);
-			hp.logout();
+			DrDashboardPage	db=new DrDashboardPage(driver);
+			db.logout();
 		}
 		
 	    
