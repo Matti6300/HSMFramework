@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[ADMIN | DASHBOARD is displayed]]>
@@ -10,214 +10,25 @@
     <line>
       <![CDATA[Updated data is displayed in home page ]]>
     </line>
-    <line>
-      <![CDATA[USER | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[USER | BOOK APPOINTMENT is displayed]]>
-    </line>
-    <line>
-      <![CDATA[ADMIN | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[USER | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[USER | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[DOCTOR | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[USER | BOOK APPOINTMENT is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Appointment history page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[ADMIN | MANAGE USERS]]>
-    </line>
-    <line>
-      <![CDATA[ADMIN | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[User Session logs page displayed]]>
-    </line>
-    <line>
-      <![CDATA[User displayed in userssession logs]]>
-    </line>
-    <line>
-      <![CDATA[PATIENTS | APPOINTMENT HISTORY is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Appointment canceled by doctor is displayed]]>
-    </line>
-    <line>
-      <![CDATA[data deleted !! is displayed]]>
-    </line>
-    <line>
-      <![CDATA[ADMIN | MANAGE USERS]]>
-    </line>
-    <line>
-      <![CDATA[User displayed in manage users page]]>
-    </line>
-    <line>
-      <![CDATA[HMS | Patient Login means it not loged in as user]]>
-    </line>
-    <line>
-      <![CDATA[Data deleted !! is displayed]]>
-    </line>
-    <line>
-      <![CDATA[DOCTOR | DASHBOARD is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PATIENT | ADD PATIENT is displayed]]>
-    </line>
-    <line>
-      <![CDATA[HMS | Patient Login is present means it not loged in as user]]>
-    </line>
-    <line>
-      <![CDATA[View patient page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Patient displayed in manage patirent page]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-06-19T06:24:27Z" name="Suite" finished-at="2024-06-19T06:25:06Z" duration-ms="38497">
+  <suite started-at="2024-06-20T06:49:44Z" name="Default suite" finished-at="2024-06-20T06:49:53Z" duration-ms="8805">
     <groups>
     </groups>
-    <test started-at="2024-06-19T06:24:27Z" name="Test" finished-at="2024-06-19T06:25:06Z" duration-ms="38497">
-      <class name="com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest@16150369]" started-at="2024-06-19T06:24:28Z" name="configBC" finished-at="2024-06-19T06:24:31Z" duration-ms="3926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest@16150369]" started-at="2024-06-19T06:24:31Z" name="configBM" finished-at="2024-06-19T06:24:39Z" duration-ms="7768" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyAppointmentCancelByDoctor()[pri:0, instance:com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest@16150369]" started-at="2024-06-19T06:24:39Z" name="verifyAppointmentCancelByDoctor" finished-at="2024-06-19T06:24:56Z" duration-ms="16856" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[USER | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[USER | BOOK APPOINTMENT is displayed]]>
-            </line>
-            <line>
-              <![CDATA[DOCTOR | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Appointment history page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PATIENTS | APPOINTMENT HISTORY is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Appointment canceled by doctor is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAppointmentCancelByDoctor -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest@16150369]" started-at="2024-06-19T06:24:56Z" name="configAM" finished-at="2024-06-19T06:24:57Z" duration-ms="589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest@16150369]" started-at="2024-06-19T06:24:57Z" name="configAC" finished-at="2024-06-19T06:24:57Z" duration-ms="450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.providence.hms.AdminTest.AppointmentCancelbyDoctorTest -->
-      <class name="com.providence.hms.AdminTest.DeleteUserTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.DeleteUserTest@6b09fb41]" started-at="2024-06-19T06:24:28Z" name="configBC" finished-at="2024-06-19T06:24:32Z" duration-ms="4082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.DeleteUserTest@6b09fb41]" started-at="2024-06-19T06:24:32Z" name="configBM" finished-at="2024-06-19T06:24:39Z" duration-ms="7706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyAdminIsAbleTodeleteUser()[pri:0, instance:com.providence.hms.AdminTest.DeleteUserTest@6b09fb41]" started-at="2024-06-19T06:24:39Z" name="verifyAdminIsAbleTodeleteUser" finished-at="2024-06-19T06:25:00Z" duration-ms="20654" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ADMIN | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[ADMIN | MANAGE USERS]]>
-            </line>
-            <line>
-              <![CDATA[data deleted !! is displayed]]>
-            </line>
-            <line>
-              <![CDATA[HMS | Patient Login means it not loged in as user]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAdminIsAbleTodeleteUser -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.DeleteUserTest@6b09fb41]" started-at="2024-06-19T06:25:00Z" name="configAM" finished-at="2024-06-19T06:25:00Z" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.DeleteUserTest@6b09fb41]" started-at="2024-06-19T06:25:00Z" name="configAC" finished-at="2024-06-19T06:25:01Z" duration-ms="331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.providence.hms.AdminTest.DeleteUserTest -->
-      <class name="com.providence.hms.AdminTest.MakeUsertoPatientTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.MakeUsertoPatientTest@624ea235]" started-at="2024-06-19T06:24:28Z" name="configBC" finished-at="2024-06-19T06:24:32Z" duration-ms="4080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.MakeUsertoPatientTest@624ea235]" started-at="2024-06-19T06:24:32Z" name="configBM" finished-at="2024-06-19T06:24:39Z" duration-ms="7318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="makeUserToPatient()[pri:0, instance:com.providence.hms.AdminTest.MakeUsertoPatientTest@624ea235]" started-at="2024-06-19T06:24:39Z" name="makeUserToPatient" finished-at="2024-06-19T06:25:05Z" duration-ms="26186" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[USER | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[USER | BOOK APPOINTMENT is displayed]]>
-            </line>
-            <line>
-              <![CDATA[User displayed in manage users page]]>
-            </line>
-            <line>
-              <![CDATA[DOCTOR | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PATIENT | ADD PATIENT is displayed]]>
-            </line>
-            <line>
-              <![CDATA[View patient page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Patient displayed in manage patirent page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- makeUserToPatient -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.MakeUsertoPatientTest@624ea235]" started-at="2024-06-19T06:25:05Z" name="configAM" finished-at="2024-06-19T06:25:05Z" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.MakeUsertoPatientTest@624ea235]" started-at="2024-06-19T06:25:05Z" name="configAC" finished-at="2024-06-19T06:25:06Z" duration-ms="505" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.providence.hms.AdminTest.MakeUsertoPatientTest -->
+    <test started-at="2024-06-20T06:49:44Z" name="Default test" finished-at="2024-06-20T06:49:53Z" duration-ms="8805">
       <class name="com.providence.hms.AdminTest.AboutUsTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:27Z" name="configBS" finished-at="2024-06-19T06:24:27Z" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:44Z" name="configBS" finished-at="2024-06-20T06:49:44Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:28Z" name="configBC" finished-at="2024-06-19T06:24:31Z" duration-ms="3926" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:44Z" name="configBC" finished-at="2024-06-20T06:49:46Z" duration-ms="2430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:31Z" name="configBM" finished-at="2024-06-19T06:24:39Z" duration-ms="7478" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:46Z" name="configBM" finished-at="2024-06-20T06:49:48Z" duration-ms="1781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="verifyUpdateAboutUs()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:39Z" name="verifyUpdateAboutUs" finished-at="2024-06-19T06:24:47Z" duration-ms="7635" status="PASS">
+        <test-method signature="verifyUpdateAboutUs()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:48Z" name="verifyUpdateAboutUs" finished-at="2024-06-20T06:49:52Z" duration-ms="3955" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ADMIN | DASHBOARD is displayed]]>
@@ -230,62 +41,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyUpdateAboutUs -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:47Z" name="configAM" finished-at="2024-06-19T06:24:48Z" duration-ms="1006" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:52Z" name="configAM" finished-at="2024-06-20T06:49:52Z" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:24:48Z" name="configAC" finished-at="2024-06-19T06:24:49Z" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:52Z" name="configAC" finished-at="2024-06-20T06:49:53Z" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@4b520ea8]" started-at="2024-06-19T06:25:06Z" name="configAS" finished-at="2024-06-19T06:25:06Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.providence.hms.AdminTest.AboutUsTest@60f00693]" started-at="2024-06-20T06:49:53Z" name="configAS" finished-at="2024-06-20T06:49:53Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.providence.hms.AdminTest.AboutUsTest -->
-      <class name="com.providence.hms.AdminTest.CreateUserAndDeleteUserTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.providence.hms.AdminTest.CreateUserAndDeleteUserTest@3932c79a]" started-at="2024-06-19T06:24:28Z" name="configBC" finished-at="2024-06-19T06:24:31Z" duration-ms="3925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.providence.hms.AdminTest.CreateUserAndDeleteUserTest@3932c79a]" started-at="2024-06-19T06:24:31Z" name="configBM" finished-at="2024-06-19T06:24:40Z" duration-ms="8836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyCreateUserAndDeleteUserByAdmin()[pri:0, instance:com.providence.hms.AdminTest.CreateUserAndDeleteUserTest@3932c79a]" started-at="2024-06-19T06:24:40Z" name="verifyCreateUserAndDeleteUserByAdmin" finished-at="2024-06-19T06:25:04Z" duration-ms="23759" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[USER | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[ADMIN | DASHBOARD is displayed]]>
-            </line>
-            <line>
-              <![CDATA[User Session logs page displayed]]>
-            </line>
-            <line>
-              <![CDATA[User displayed in userssession logs]]>
-            </line>
-            <line>
-              <![CDATA[ADMIN | MANAGE USERS]]>
-            </line>
-            <line>
-              <![CDATA[Data deleted !! is displayed]]>
-            </line>
-            <line>
-              <![CDATA[HMS | Patient Login is present means it not loged in as user]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyCreateUserAndDeleteUserByAdmin -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.providence.hms.AdminTest.CreateUserAndDeleteUserTest@3932c79a]" started-at="2024-06-19T06:25:04Z" name="configAM" finished-at="2024-06-19T06:25:04Z" duration-ms="432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.providence.hms.AdminTest.CreateUserAndDeleteUserTest@3932c79a]" started-at="2024-06-19T06:25:04Z" name="configAC" finished-at="2024-06-19T06:25:05Z" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.providence.hms.AdminTest.CreateUserAndDeleteUserTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

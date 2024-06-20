@@ -26,7 +26,7 @@ public class ExcelUtility {
 	 */
 	public String getDataFromExcel(String sheetName , int rowNum , int celNum) throws Throwable {
 		
-		FileInputStream fis = new FileInputStream("C:\\Users\\adity\\OneDrive\\Desktop\\TekPyramid\\testdata.xlsx");
+		FileInputStream fis = new FileInputStream("./testdata/testdata_Aditya.xlsx");
 		Workbook wb =  WorkbookFactory.create(fis);
 	    String data = wb.getSheet(sheetName).getRow(rowNum).getCell(celNum).getStringCellValue();
 	    wb.close();
