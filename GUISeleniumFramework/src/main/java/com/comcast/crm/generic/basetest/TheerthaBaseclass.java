@@ -29,7 +29,7 @@ import com.comcast.crm.objectrepositoryutility.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass {
+public class TheerthaBaseclass {
 	/* Create Object */
 	public DataBaseUtility dbLib = new DataBaseUtility();
 	public FileUtility fLib = new FileUtility();
