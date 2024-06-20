@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.BaseClass_Aditya;
 import com.comcast.crm.generic.listenerutility.ListImpClass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
@@ -25,7 +25,7 @@ import com.comcast.crm.objectrepositoryutility.HomePage;
 import com.comcast.crm.objectrepositoryutility.ManageUsersPage;
 import com.comcast.crm.objectrepositoryutility.PatientLoginPage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class DeleteUserTest extends BaseClass {
+public class DeleteUserTest extends BaseClass_Aditya {
 
 	@Test
 	public void verifyAdminIsAbleTodeleteUser() throws Throwable

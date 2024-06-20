@@ -26,7 +26,7 @@ import com.comcast.crm.objectrepositoryutility.AdminLoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass {
+public class BaseClass_Aditya {
 	/* Create Object */
 	public DataBaseUtility dbLib = new DataBaseUtility();
 	public FileUtility fLib = new FileUtility();

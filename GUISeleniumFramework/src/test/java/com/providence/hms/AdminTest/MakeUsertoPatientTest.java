@@ -12,7 +12,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.BaseClass_Aditya;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.objectrepositoryutility.AdminDashboardPage;
 import com.comcast.crm.objectrepositoryutility.DoctorAddPatientPage;
@@ -22,7 +22,7 @@ import com.comcast.crm.objectrepositoryutility.PatientBookAppointmentPage;
 import com.comcast.crm.objectrepositoryutility.PatientDashboardPage;
 import com.comcast.crm.objectrepositoryutility.PatientLoginPage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class MakeUsertoPatientTest extends BaseClass {
+public class MakeUsertoPatientTest extends BaseClass_Aditya {
 
 	@Test
 	public void makeUserToPatient() throws Throwable

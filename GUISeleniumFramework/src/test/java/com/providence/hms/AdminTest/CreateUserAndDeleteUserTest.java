@@ -12,7 +12,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.BaseClass_Aditya;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 import com.comcast.crm.objectrepositoryutility.AdminDashboardPage;
@@ -20,7 +20,7 @@ import com.comcast.crm.objectrepositoryutility.ManageUsersPage;
 import com.comcast.crm.objectrepositoryutility.PatientDashboardPage;
 import com.comcast.crm.objectrepositoryutility.PatientLoginPage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class CreateUserAndDeleteUserTest extends BaseClass{
+public class CreateUserAndDeleteUserTest extends BaseClass_Aditya{
 
 	@Test
 	public void verifyCreateUserAndDeleteUserByAdmin() throws Throwable

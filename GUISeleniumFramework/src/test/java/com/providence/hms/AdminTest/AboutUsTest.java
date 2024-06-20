@@ -11,13 +11,13 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.BaseClass_Aditya;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.objectrepositoryutility.AboutusPage;
 import com.comcast.crm.objectrepositoryutility.AdminDashboardPage;
 import com.comcast.crm.objectrepositoryutility.HomePage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class AboutUsTest extends BaseClass{
+public class AboutUsTest extends BaseClass_Aditya{
 
 	@Test
 	public void verifyUpdateAboutUs() throws Throwable
@@ -53,6 +53,6 @@ public class AboutUsTest extends BaseClass{
 		UtilityClassObject.getTest().log(Status.INFO, "Updated data is displayed in home page ");
 
 		configBM();
-		
+
 	}
 }
