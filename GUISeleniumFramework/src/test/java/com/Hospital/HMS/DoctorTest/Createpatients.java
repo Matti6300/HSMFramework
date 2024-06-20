@@ -12,12 +12,12 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.TheerthaBaseclass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.objectrepositoryutility.AddPatientPage;
 import com.comcast.crm.objectrepositoryutility.DrDashboardPage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class Createpatients extends BaseClass {
+public class Createpatients extends TheerthaBaseclass {
 	/**
 	 * @author theer
 	 * @throws EncryptedDocumentException

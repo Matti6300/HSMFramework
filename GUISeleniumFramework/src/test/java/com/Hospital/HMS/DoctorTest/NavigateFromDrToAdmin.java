@@ -12,14 +12,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.comcast.crm.generic.basetest.TheerthaBaseclass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
 import com.comcast.crm.objectrepositoryutility.AdminDashBoardPage;
 import com.comcast.crm.objectrepositoryutility.AdminLoginPage;
 import com.comcast.crm.objectrepositoryutility.DrDashboardPage;
 import com.comcast.crm.objectrepositoryutility.SearchPatintPage;
 @Listeners(com.comcast.crm.generic.listenerutility.ListImpClass.class)
-public class NavigateFromDrToAdmin  extends BaseClass {
+public class NavigateFromDrToAdmin  extends TheerthaBaseclass {
 	/**
 	 * @author theer
 	 * @throws Throwable 
