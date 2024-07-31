@@ -1,1 +1,2 @@
 im trying to get knowledge on git command through the git bash
+im bhararth matti im a test engineer
