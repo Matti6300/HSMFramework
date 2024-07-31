@@ -1,0 +1,1 @@
+im trying to get knowledge on git command through the git bash
